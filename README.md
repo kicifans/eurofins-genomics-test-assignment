@@ -53,6 +53,7 @@ SpringBoot
 Jackson  
 ---------------------
 Additional things added, but would need some more work of:  
-1.Exception added only to see if input IP address pattern id right.  
-2.Added few basic tests to see if endpoints return same value as using services manualy.
+1.Exception added only to see if input IP address pattern id right. Should add more feedback from service, if responses or values inserted aren't as expected 
+2.Added few basic tests to see if endpoints return same value as using services manualy.  
+3.README formatting could use some work. 
 
