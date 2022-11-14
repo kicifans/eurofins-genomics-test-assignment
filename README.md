@@ -25,7 +25,7 @@ SETTING UP & RUNNING APPLICATION AND MYSQL USING DOCKER
 4.2. build docker image using command:  
 >docker build -t eurofins-genomics-rest-app .  
 
-4.2. run this command to run rest api:  
+4.3. run this command to run rest api:  
 >docker run -p 9090:8080 --name eurofins-genomics-rest-app --net eurofins-homework-net -e MYSQL_HOST=homework_db -e MYSQL_PORT=3306 eurofins-genomics-rest-app  
 --------------------
 Available endpoints:
